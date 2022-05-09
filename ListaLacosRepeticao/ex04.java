@@ -12,7 +12,7 @@ public class ex04 {
 		//variaveis
 		int idade, psico, genero;
 		
-		while (nPessoa<2) {
+		while (nPessoa<150) {
 			System.out.println("Informe seu genero: \n\n[1] Feminino\n[2] Masculino\n[3] Outro\n");
 			genero = ler.nextInt();
 			System.out.println("\nInforme sua idade\n");
