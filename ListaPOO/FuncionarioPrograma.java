@@ -2,12 +2,12 @@ package ListaPOO;
 
 import java.util.Scanner;
 
-public class AumentoSalarioPrograma {
+public class FuncionarioPrograma {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		AumentoSalario funcionario = new AumentoSalario(5000);
+		Funcionario funcionario = new Funcionario(5000);
 		System.out.print("Insira o Nome do funcionário: ");
 		funcionario.nome = sc.nextLine();
 		System.out.print("Insira o Sobrenome do funcionário: ");

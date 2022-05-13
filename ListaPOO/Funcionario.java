@@ -1,12 +1,12 @@
 package ListaPOO;
 
-public class AumentoSalario {
+public class Funcionario {
 	String nome, sobrenome;
 	double salario;
 	double aumentoPct=0;
 	
 	//METODO CONSTRUTOR
-	public AumentoSalario (double salario) {
+	public Funcionario (double salario) {
 		this.salario = salario;
 	}
 	
@@ -19,7 +19,7 @@ public class AumentoSalario {
 		return
 		"NOME DO FUNCIONÁRIO: "
 		+ nome + " " + sobrenome
-		+ System.out.printf("\nSALÁRIO ATUAL R$: %.2f%\n", aumentoCalculo());
+		+ System.out.printf("\nSALÁRIO ATUAL R$: %.2f%n", aumentoCalculo());
 	}
 	
 }

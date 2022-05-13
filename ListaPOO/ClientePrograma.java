@@ -53,11 +53,7 @@ public class ClientePrograma {
 			System.out.println("ATUALIZAÇÃO DADOS DO CLIENTE: "+cliente1.dataCliente());
 			break;
 		}
-		
-		
-		
-		
-		
+			
 
 	}//fim programa
 
